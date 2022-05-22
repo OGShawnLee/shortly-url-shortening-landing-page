@@ -17,7 +17,9 @@
     "isolatedModules": true,
     "paths": {
       "@assets": ["src/assets"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@layout": ["src/layout"],
+      "@layout/*": ["src/layout/*"]
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
