@@ -12,6 +12,8 @@ export default defineConfig({
       '@assets/*': resolve('src/assets/*'),
       '@layout': resolve('src/layout'),
       '@layout/*': resolve('src/layout/*'),
+      '@styles': resolve('src/styles'),
+      '@styles/*': resolve('src/styles/*'),
     },
   },
 });

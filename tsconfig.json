@@ -19,7 +19,9 @@
       "@assets": ["src/assets"],
       "@assets/*": ["src/assets/*"],
       "@layout": ["src/layout"],
-      "@layout/*": ["src/layout/*"]
+      "@layout/*": ["src/layout/*"],
+      "@styles": ["src/styles"],
+      "@styles/*": ["src/styles/*"]
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
