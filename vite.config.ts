@@ -10,6 +10,8 @@ export default defineConfig({
     alias: {
       '@assets': resolve('src/assets'),
       '@assets/*': resolve('src/assets/*'),
+      '@components': resolve('src/components'),
+      '@components/*': resolve('src/components/*'),
       '@layout': resolve('src/layout'),
       '@layout/*': resolve('src/layout/*'),
       '@styles': resolve('src/styles'),
