@@ -1,5 +1,5 @@
 <script>
-  import { Banner, Footer, Features, Header, Hero, Shorter } from '@layout';
+  import { Banner, Features, Footer, Header, Hero, Shorter } from '@layout';
 </script>
 
 <Header />
