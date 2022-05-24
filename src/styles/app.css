@@ -1,0 +1,30 @@
+a,
+button,
+input {
+  @apply outline-none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-violet-900;
+}
+
+.button {
+  @apply min-w-[fit-content] py-2 text-white transition;
+}
+
+.button:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.5);
+}
+
+.button:focus {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.5);
+}
+
+.breakpoints {
+  @apply max-w-xs mx-auto sm:max-w-sm md:max-w-lg lg:max-w-4xl xl:max-w-6xl;
+}
