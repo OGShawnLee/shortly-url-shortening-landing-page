@@ -4,14 +4,11 @@ import { useListener } from 'malachite-ui/hooks';
 import { isEmpty, isString } from 'malachite-ui/predicate';
 
 export const copiedLink = writable<string | null>(null, (set) => {
-  navigator.clipboard.read().then(([item]) => {
-    if (item?.types.includes('text/plain')) {
-      item
-        .getType('text/plain')
-        .then((value) => value.text())
-        .then(set);
-    }
-  });
+  try {
+    navigator.clipboard.readText().then(set);
+  } catch (err) {
+    console.error('Unable to Read Text from the Clipboard');
+  }
 
   return useListener(document.body, 'copy', () => {
     const selection = document.getSelection()?.toString();
