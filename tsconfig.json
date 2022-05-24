@@ -25,6 +25,8 @@
       "@hooks/*": ["src/hooks/*"],
       "@layout": ["src/layout"],
       "@layout/*": ["src/layout/*"],
+      "@state": ["src/state"],
+      "@state/*": ["src/state/*"],
       "@styles": ["src/styles"],
       "@styles/*": ["src/styles/*"]
     }

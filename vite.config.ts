@@ -18,6 +18,8 @@ export default defineConfig({
       '@layout/*': resolve('src/layout/*'),
       '@styles': resolve('src/styles'),
       '@styles/*': resolve('src/styles/*'),
+      '@state': resolve('src/state'),
+      '@state/*': resolve('src/state/*'),
     },
   },
 });
