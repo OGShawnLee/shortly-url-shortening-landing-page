@@ -10,46 +10,46 @@
       <div class="space-y-4">
         <span class="text-white font-bold"> Features </span>
         <ul class="flex flex-col gap-2">
-          <a href="/#">
-            <li>Link Shortening</li>
-          </a>
-          <a href="/#">
-            <li>Branded Links</li>
-          </a>
-          <a href="/#">
-            <li>Analytics</li>
-          </a>
+          <li>
+            <a href="/#"> Link Shortening </a>
+          </li>
+          <li>
+            <a href="/#"> Branded Links </a>
+          </li>
+          <li>
+            <a href="/#"> Analytics </a>
+          </li>
         </ul>
       </div>
       <div class="space-y-4">
         <span class="text-white font-bold"> Resources </span>
         <ul class="flex flex-col gap-2">
-          <a href="/#">
-            <li>Blog</li>
-          </a>
-          <a href="/#">
-            <li>Developers</li>
-          </a>
-          <a href="/#">
-            <li>Support</li>
-          </a>
+          <li>
+            <a href="/#"> Blog </a>
+          </li>
+          <li>
+            <a href="/#"> Developers </a>
+          </li>
+          <li>
+            <a href="/#"> Support </a>
+          </li>
         </ul>
       </div>
       <div class="space-y-4">
         <span class="text-white font-bold"> Company </span>
         <ul class="flex flex-col gap-2">
-          <a href="/#">
-            <li>About</li>
-          </a>
-          <a href="/#">
-            <li>Our Team</li>
-          </a>
-          <a href="/#">
-            <li>Contact</li>
-          </a>
-          <a href="/#">
-            <li>Careers</li>
-          </a>
+          <li>
+            <a href="/#"> About </a>
+          </li>
+          <li>
+            <a href="/#"> Our Team </a>
+          </li>
+          <li>
+            <a href="/#"> Contact </a>
+          </li>
+          <li>
+            <a href="/#"> Careers </a>
+          </li>
         </ul>
       </div>
     </nav>
