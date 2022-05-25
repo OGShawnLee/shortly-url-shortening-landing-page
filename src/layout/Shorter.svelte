@@ -58,6 +58,7 @@
 
 <section class="pt-28">
   <div class="{layout} p-6 | bg-violet-700 rounded-lg">
+    <h2 class="sr-only">URL Shortener</h2>
     <form
       class="flex flex-col gap-3 items-start | lg:flex-row"
       on:submit|preventDefault={handleSubmit}>
