@@ -14,7 +14,7 @@ h6 {
 }
 
 .button {
-  @apply min-w-[fit-content] py-2 text-white transition;
+  @apply min-w-[fit-content] py-2 text-white transition lg:text-lg;
 }
 
 .button:hover {

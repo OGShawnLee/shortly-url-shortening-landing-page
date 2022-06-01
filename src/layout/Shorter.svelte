@@ -57,7 +57,7 @@
 </script>
 
 <section class="pt-28">
-  <div class="{layout} p-6 | bg-violet-700 rounded-lg">
+  <div id="shorter" class="{layout} p-6 | bg-violet-700 rounded-lg lg:p-12">
     <h2 class="sr-only">URL Shortener</h2>
     <form
       class="flex flex-col gap-3 items-start | lg:flex-row"
@@ -79,7 +79,7 @@
         {/if}
       </div>
       <button
-        class="w-full button h-13 px-8 | bg-cyan rounded-lg | lg:w-[fit-content]"
+        class="w-full button h-13 px-8 | bg-cyan rounded-lg | lg:(w-[fit-content] text-lg)"
         class:opacity-75={state === 'PENDING'}
         disabled={state === 'PENDING'}>
         {state === 'PENDING' ? 'Shortening...' : 'Shorten It!'}
@@ -93,3 +93,18 @@
     {/each}
   </div>
 </section>
+
+<style>
+  #shorter {
+    background-image: url("../assets/bg-shorten-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+@media screen and (min-width: 1024px) {
+  #shorter {
+    background-image: url(../assets/bg-shorten-desktop.svg);
+    background-size: cover;
+  }
+}
+</style>
