@@ -8,8 +8,8 @@
       destroy: useWindowListener('scroll', () => {
         const currentY = window.scrollY;
         const isGoingDown = currentY > y;
-        if (isGoingDown) element.classList.add('-translate-y-18');
-        else element.classList.remove('-translate-y-18');
+        if (isGoingDown) element.classList.add('-translate-y-24');
+        else element.classList.remove('-translate-y-24');
         y = currentY;
       }),
     };
@@ -24,7 +24,7 @@
 </script>
 
 <Popover
-  class="fixed top-0 right-0 left-0 z-90 h-18 | bg-white/90 transform transition duration-300"
+  class="fixed top-0 right-0 left-0 z-90 h-24 | bg-white/90 transform transition duration-300"
   as="header"
   use={[[scrollHideableNavBar]]}
   let:panel

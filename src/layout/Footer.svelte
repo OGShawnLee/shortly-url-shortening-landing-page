@@ -4,9 +4,11 @@
 
 <footer class="bg-violet-900">
   <div
-    class="w-full breakpoints | flex flex-col gap-12 items-center py-12 lg:(flex-row items-start gap-18)">
-    <Logo isDark />
-    <nav class="flex flex-col gap-9 text-center lg:(ml-auto flex-row text-left)">
+    class="w-full breakpoints | flex flex-col gap-12 items-center py-12 | md:py-16 lg:(flex-row items-start gap-18 py-22) xl:gap-24">
+    <div>
+      <Logo isDark />
+    </div>
+    <nav class="flex flex-col gap-9 text-center lg:(ml-auto flex-row text-left gap-18) xl:gap-24">
       <div class="space-y-4">
         <span class="text-white font-bold"> Features </span>
         <ul class="flex flex-col gap-2">

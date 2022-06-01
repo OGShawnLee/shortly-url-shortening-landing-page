@@ -18,7 +18,7 @@
   <div
     class="flex flex-col items-center gap-4 | text-center | lg:(order-1 col-span-6 text-left items-start justify-center) xl:col-span-7">
     <h1 class="text-4xl font-bold | lg:text-6xl xl:text-7xl">More than just shorter links</h1>
-    <p class="text-violet-300 lg:text-lg xl:text-xl">
+    <p class="text-violet-300 text-lg xl:text-2xl">
       Build your brand's recognition and get detailed insights on how your links are performing.
     </p>
     <button class="button mt-4 px-8 | bg-cyan rounded-full text-lg"> Get Started </button>
